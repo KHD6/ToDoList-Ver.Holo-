@@ -257,7 +257,7 @@ header .weather-box #weather span:nth-child(2) img {
     font-family: NanumSquareRound;
     letter-spacing: 2px;
     font-size: 1.2rem;
-    background-color: #444444;
+    background-color: #b3d30e;
     border-bottom: 2px solid transparent;
     border-radius: 0 50% 0 50%;
     text-wrap: nowrap;
