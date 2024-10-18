@@ -7,7 +7,6 @@ const bgimages = [
     "bg-img06.jpg",
     "bg-img07.jpg",
     "bg-img08.jpg",
-    "bg-img09.webp",
 ];
 
 const chosenBgImgage = bgimages[Math.floor(Math.random() * bgimages.length)];

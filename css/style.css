@@ -25,9 +25,11 @@
 }
 
 .background .img-box img {
-    max-width: none;
+    max-width: 120%;
     width: auto;
-    height: 100%;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -368,10 +370,7 @@ header .weather-box #weather span:nth-child(2) img {
     /*background 시작*/
 
     .background .img-box img {
-        width: 100%;
-        height: auto;
-        max-width: 100%;
-        transform: translate(-50%, -20%);
+        transform: translate(-50%, -30%);
         animation: bgAnimation-PC 10s backwards;
     }
 
